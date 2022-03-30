@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos graficos</title>
+    <style>        
+
+        picture{
+          width: 50%; /* ocupar 50% da tela*/
+          height: auto;
+        }
+
+        img{
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 50%;
+        } 
+              
+      
+        
+        /*FILTROS*/ 
+        .one{
+            filter: grayscale(100%); /*ESCALA DE ZINZA*/
+            filter: blur(5px); /*DESFOQUE*/
+            filter: brightness(50%); /*BRILHO*/
+            filter: saturate(20%) sepia(100%); /*COMBINA FILTROS */
+        }
+
+        .one:hover{
+            filter: brightness(0%);
+        }
+
+        .two{
+            filter: drop-shadow(8px 8px  10px black); 
+            
+        }
+
+        p{
+            float: left; /* COLOCA O TEXTO OU IMAGEM LADO A LADO, É UMA OPÇÃO A MAIS QUANDO O DISPLAY INLINE ESTIVER DANDO ERRO*/
+            background-color: brown;
+            width: 50%; /* ocupar 50% da tela*/
+            height: auto;
+            margin: 10px;
+            padding: 20px;
+        }
+
+        @media screen {
+          max-width: 425px;          
+      }
+        
+    </style>
+</head>
+<body>
+
+    
+    <h1>Responsividade</h1>
+
+    <picture>
+        <img class="one" src="10.jpg" alt="">   
+
+        <img class="two" src="15.jpg" alt="">
+    </picture>
+
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem asperiores dolor iusto totam tenetur. Saepe assumenda, incidunt, dignissimos debitis beatae illum, nulla reiciendis est dolorum similique quae nam dolorem cum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, numquam fugit dolorem facilis sed voluptate totam reiciendis deleniti explicabo possimus. Dolores non ab architecto aut deserunt necessitatibus officiis voluptate iste! Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aperiam itaque consectetur maxime minus, fugiat doloribus dolores iste! Amet eos velit commodi rem quis nobis nesciunt non possimus fuga eum.
+    </p>
+    
+</body>
+</html>
