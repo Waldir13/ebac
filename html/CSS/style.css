@@ -1,0 +1,97 @@
+	/* arquivo de css com estilos de elementos de todas as paginas*/
+	* {
+	box-sizing: border-box;
+	font-family: serif;
+	}
+
+	html{
+		margin: 0;
+		padding: 0;
+		font-size: 62.5%; /*equivalente a 10 px */
+	}
+
+	body {
+
+		font-family: Arial, Helvetica, sans-serif;
+		background-color: white;
+
+		
+	}
+
+	
+	h1,h2,p { 
+		font-family: arial,helvetica, sans-serif;
+
+	}
+
+	a{
+		text-decoration: none;
+	}
+
+	form div{
+		background: #fff;
+		padding: 10px;
+		margin-bottom: 10px;
+	}
+
+	[type="text"],[type="email"], textarea{ 
+
+	}
+
+
+	/* Style the header */
+	header {
+	background-color: #fff;
+	padding: 30px;
+	text-align: center;
+	font-size: 35px;
+	color: black;
+	}
+
+	/* Create two columns/boxes that floats next to each other */
+	nav {
+	float: left;
+	width: 30%;
+	  
+	background: #ededed;
+	padding: 20px;
+			}
+
+	/* Style the list inside the menu */
+	nav ul {
+	list-style-type: none;
+	padding: 0;
+	}
+
+	article {
+	float: left;
+	padding: 20px;
+	width: 70%;
+	background-color: #fff;
+	}
+
+	/* Clear floats after the columns */
+	section::after {
+	background: #ccc;
+	content: "";
+	display: table;
+	clear: both;
+	}
+
+	/* Style the footer */
+	footer {
+	background-color: #777;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	
+
+	}
+
+	/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+	@media (max-width: 600px) {
+	nav, article {
+	width: 100%;
+	height: auto;
+	}
+	}
