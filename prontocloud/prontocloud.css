@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.main-container{    
+    width: 100vw;
+    margin: auto;
+    
+}
+
+.container{
+    display: block;
+    float: left;
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+}
+
+header{
+    background-color: white;
+    display: block;
+    float: left;
+    padding: 20px;
+    width: 100%;
+    border-bottom: 1px solid rgb(0, 0, 76);
+
+}
+
+h1{
+    font-size: 2.4rem;
+    color: rgb(0, 0, 76);
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 2rem;
+    color: rgb(0, 0, 76);
+    margin-bottom: 10px;
+}
+
+h3{
+    font-size: 1.8rem;
+    color: rgb(0, 0, 76);
+    margin-bottom: 10px;
+}
+
+h4{
+    font-size: 1.6rem;
+    color: rgb(0, 0, 76);
+    margin-bottom: 10px;
+}
+
+p{
+    line-height: 1.4;
+}
+
+ol{
+
+}
+
+ol li{
+    font-size: 1.4rem;
+}
+
+section{
+
+    font-size: 1.5rem;
+    padding: 20px;
+    width: 100%;
+
+}
+
+section nav{
+    display: block;
+    float: left;
+    width: 30%;
+}
+
+nav li{
+    margin: 1px 20px 1px 0px;
+    padding: 10px;
+    background-color: rgba(198, 198, 198, 0.928);
+}
+
+nav li:hover{
+    background-color: rgba(166, 165, 165, 0.928);
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 76);
+
+}
+
+nav a:hover{
+    color: blue;
+}
+
+
+
+section article{
+    display: block;
+    float: left;
+    width: 70%;
+}
+
+footer{
+    background-color:rgb(0, 0, 76);
+   color: white;
+   display: block;
+   float: left;
+   padding: 20px;
+   width: 100%;
+    
+}
+
+footer p{
+
+}
+
+footer small{
+    font-size: 80%;
+    display: block;
+}
