@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        td, th, caption{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;            
+        }
+
+        caption{
+            background-color: gold;
+            color: black;
+            font-weight: bold;
+        }
+
+        .total{
+            background-color: lightgray;
+            font-weight: bold;
+        }
+
+        th{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+   
+    <table>
+        <thead>
+            <caption>Controle de vendas mês <br>
+            Empresa X</caption>
+        </thead>
+        <tr>
+            <th>PRODUTO</th>
+            <td>JAN</th>
+            <th>FEV</th>
+            <th>MAR</th>
+            <th class="total" colspan="2">TOTAL</th>
+            
+        </tr>
+
+        <tr>
+            <td>CAMISA SOCIAL</td>
+            <td>1200</td>
+            <td>1500</td>
+            <td>1300</td>
+            <td class="total" colspan="2"> R$ 4000</td>
+           
+                        
+        </tr>
+
+        <tr>            
+            <td>POLO</td>
+            <td>850</td>
+            <td>1100</td>
+            <td>900</td>
+            <td class="total" > R$ 2850</td>            
+        </tr>
+
+        <tr>            
+            <td>CAMISETA BASICA</td>
+            <td>1200</td>
+            <td>1000</td>
+            <td>1000</td>            
+            <td class="total" > R$ 3200</td>             
+        </tr>
+     
+    </table>
+</body>
+</html>

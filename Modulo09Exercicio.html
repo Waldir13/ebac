@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos graficos</title>
+    <style>
+        body{
+            background-color: brown;
+            
+        }
+        
+        picture{
+          width: 50%; /* ocupar 50% da tela*/
+          height: auto;
+      }
+
+        img{
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 50%;
+        } 
+              
+      
+        
+        /*FILTROS*/ 
+        picture{
+            filter: grayscale(500%); /*ESCALA DE ZINZA*/
+           
+            filter: drop-shadow(8px 8px  10px black);
+            
+        }
+
+        picture:hover{
+            filter: brightness(30%);
+        }
+        
+        img{
+            margin: 10px;
+        }
+
+        article{
+            background-color: white;
+            width: 60%; /* ocupar 50% da tela*/
+            height: auto;
+            margin: 10px;
+            padding: 20px;
+        }
+
+        p{
+            
+            text-align: justify;
+          
+        }
+        
+       
+
+    </style>
+</head>
+<body>
+    
+    
+
+    <picture>
+        <img class src="10.jpg" alt="">   
+
+        <img class src="15.jpg" alt="">
+
+        <img src="5.jpg" alt="">
+
+        <img src="3.jpg" alt="">
+    </picture>
+
+    <article>
+        <h2>Consumo de hot dogs na região de São Paulo</h2>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem asperiores dolor iusto totam tenetur. Saepe assumenda, incidunt, dignissimos debitis beatae illum, nulla reiciendis est dolorum similique quae nam dolorem cum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, numquam fugit dolorem facilis sed voluptate totam reiciendis deleniti explicabo possimus. Dolores non ab architecto aut deserunt necessitatibus officiis voluptate iste! Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aperiam itaque consectetur maxime minus, fugiat doloribus dolores iste! Amet eos velit commodi rem quis nobis nesciunt non possimus fuga eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dicta corporis est deleniti sint molestiae, nemo beatae non odit debitis eligendi rerum facilis omnis nam neque illum rem accusantium nulla?
+        </p>
+    </article>
+    
+</body>
+</html>
